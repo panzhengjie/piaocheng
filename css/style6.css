@@ -1,0 +1,8 @@
+/* CSS Document */
+@charset "utf-8";
+
+body { margin:200px;}
+/*div { background-color:red; width:400px; height:400px; box-shadow:2px 2px 2px green;/* transform:translate(100px,100px)*/ /*transform:scale(1.5,1.5)*//*transform:skew(20deg,20deg)}*/
+#a{ perspective:1000px;transform-style:preserve-3d;perspective-origin: top right; }
+img{width:300px; height:300px;-webkit-transform:rotate3d(1,0,0,45deg)}
+

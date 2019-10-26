@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+p{ width: 200px;
+background-color: silver;
+ border: 1px solid red;
+ margin: 5px;
+ padding: 5px;
+
+ }
+ div{ display: -webkit-box;
+ display: -moz-box;
+ display: box;
+ -webkit-box-orient:horizontal;
+ -webkit-box-direction: reverse;
+ -webkit-box-pack: justify;
+ -webkit-box-align: stretch; }
+p:nth-child(1) {
+-webkit-box-flex: 1;-webkit-box-ordinal-group:3;
+}
+p:nth-child(2) {
+-webkit-box-flex: 2.5;-webkit-box-ordinal-group:2
+}
+p:nth-child(3) {
+-webkit-box-flex: 1;-webkit-box-ordinal-group:1
+}

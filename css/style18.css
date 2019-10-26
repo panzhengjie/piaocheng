@@ -1,0 +1,753 @@
+@charset "utf-8";
+
+
+body,h1,ul,h2,h3 {margin: 0;padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	
+
+}
+ul,ol {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+div,figure,figcaption,button,input {
+box-sizing: border-box;
+}
+.none {
+	display: none;
+}
+.clearfix:after {
+	content: ".";
+	background-color: red;
+	display: block;
+	clear: both;
+	visibility: hidden;
+
+}
+#header {width: 100%;
+	
+	height: 70px;
+	background-color: #333;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+z-index: 9999;}
+#header .center{max-width:1263px;height: 70px;margin: 0 auto; }
+#header .logo{width:30%;height: 70px;text-indent: -9999px;background: url(../img/logo.png) no-repeat; 
+float: left;}
+#header .link {float: right;width: 70%;
+height: 70px;
+line-height: 70px;
+font-size: 18px;
+}
+#header .link li {float: left;width: 20%;text-align: center;
+}
+
+#header .link a {color: #eee;display: block;}
+#header .first a ,#header .link a:hover {background-color: #000;}
+#adver {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 70px 0 0 0;
+	position: relative;
+}
+#adver .center {width:40%;
+	height:60px;
+	position: absolute;
+	background-color: #000;
+	top:50%;left:50%;
+	margin:-10px 0 0 -20%;
+	border-radius: 10px;
+	opacity: 0.6;
+	   }
+#adver .copy {
+	opacity: 1;
+	background-color: transparent;
+	padding: 3px 3px 0 3px;
+}
+#adver .search {
+	width: 70%;
+	height: 52px;
+	display: block;
+	float: left;
+	background-color: #eee;
+	
+	font-size:24px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	color:#666;
+	padding: 0 10px;
+	outline: none }
+#adver .button {
+	width: 30%; 
+	height: 54px;
+	border: 1px solid #666;
+	border-left-width: 3px;
+	border-radius: 10px;
+	outline: none;
+	background-color: #eee;
+	cursor:pointer;
+	color: #666;
+	font-size: 24px;
+	display: block;
+	font-weight: bold;
+	float: right;
+	}
+#tour {max-width: 1263px;
+		text-align: center;margin: 30px auto;}
+#tour .center {
+  	text-align: center;
+}
+#tour  h2 {margin:15px 0;
+					font-size: 45px;letter-spacing: 2px;color: #666; }
+#tour .center p {margin: 10px ;
+				color: #666;}
+#tour figure {border: 1px solid #ddd;
+				padding: 4px;
+				width:32.4%;
+				border-radius: 4px;
+				margin: 15px 0.4%;
+				text-align: left;
+				position: relative;
+				display: block;
+				float: left;
+				 }
+#tour figure img {vertical-align: center;}
+#tour figure figcaption {color: #777;
+						font-size: 14px;
+						padding: 7px 0 5px 0;
+						letter-spacing: 1px;
+						line-height: 1.5;}
+#tour .info {padding:5px 0 0 0;}
+#tour .title {color: #333;
+				font-weight: normal;}
+#tour .tour_title {
+	height: 40px;
+	overflow: hidden;
+	}
+#tour .sat {float: right;color: #999;
+			font-size: 13px;
+			font-style: normal;
+			position: relative;
+			right: 5px;
+			top: 5px;
+			}
+#tour .price {color: #f60;
+				font-size: 14px;}
+#tour .price strong {
+				font-size: 20px;
+				letter-spacing: 1px;
+}
+#tour .type {color: white;
+				background-color: green;
+				width: 90px;
+				height:25px;
+				line-height: 25px;
+				text-align: center;
+				font-size: 14px;
+				letter-spacing: 1px;
+				border-bottom-right-radius: 4px;
+				position: absolute;
+				top: 4px;
+				left: 4px;
+			}
+.headline {max-width: 1920px;
+				margin: 0 auto;
+	padding: 70px 0 0 0;
+	position: relative;}
+.headline hgroup {
+	position: absolute;
+	top: 45%;
+	left: 18%;
+}
+.headline hgroup h2{
+	color: #fff;
+}
+.headline hgroup h3{
+	color: #fff;
+}
+
+#container {	max-width: 1263px;
+				
+				margin: 30px auto;}
+#container .asidebar {	width: 28%;
+						
+						
+						float: right;}
+#container .sidebox {	border: 1px solid #eee;
+						margin: 0 0 10px 0;
+						text-align: center;}
+#container .sidebox h2 {font-size: 20px;
+						font-weight: normal;
+						letter-spacing: 1px;
+						height: 40px;
+						line-height: 40px;
+						text-indent: 10px;
+						background-color: #fafafa;
+						color: #666;
+						text-align: left;}
+#container .sidebox .tag {padding: 10px 0;
+							text-align: center;}	
+#container .sidebox .tag li {display: inline-block;
+							margin: 5px 0;
+							width: 100px;
+							height: 35px;
+							line-height: 35px;
+							color: #999;
+							background-color: #eee;
+							text-align: left;
+							text-indent: 8px;
+					}	
+#container .sidebox .tag a {display: block;color: #999;}
+#container .tag a:hover {
+							background-color: #458b00;
+							color: #fff;}	
+
+#container .hot figure {display: inline-block;
+						color: #666;
+						padding: 4px;
+						margin: 0;} 
+#container .hot .figure {padding: 10px 0;}
+#container .box {padding: 10px 0;}
+#container .box a{  	display: inline-block;
+					margin: 2px 0;
+					width: 150px;
+					height: 40px;
+					line-height: 40px;
+					color: #999;
+					background-color: #eee;
+					text-align: left;
+					text-indent: 35px;}
+#container .box a.trea1 {background: #eee url(../img/trea1.png) no-repeat 10px center;}
+#container .box a.trea2 { background: #eee url(../img/trea2.png) no-repeat 10px center;}
+#container .box a.trea3 {  background:#eee url(../img/trea3.png) no-repeat 10px center;}
+#container .box a.trea4 {  background:#eee url(../img/trea4.png) no-repeat 10px center;}
+#container .about {	width: 71%;										
+					float: left;}
+#container .about h2 ,#container .scenery h2{
+	color: #666;
+}
+#container .about p {
+	font-size: 20px;
+	color: #666;
+	line-height: 2;
+	margin: 20px 0;
+}
+#container .about address {
+	font-style: normal;
+	font-size: 20px;
+	color: #666;
+	margin: 20px 0;
+	line-height: 1.6;
+}
+
+
+#container .scenery {
+	width: 71%;
+	float: left;
+}
+#container .scenery figure {
+	border: 1px solid #ddd;
+	display: block;
+	padding: 4px;
+	border-radius: 4px;
+	width: 32.6%;
+	margin: 15px 5px 15px 0;
+	text-align: left;
+	float: left;
+}
+#container .scenery figcaption {
+	text-align: center;
+	padding: 5px 0;
+	font-size: 20px;
+	color: #666;
+}
+#container .more {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	border-radius: 10px;
+
+}
+#container .ticket {
+	color: #666;
+
+	width: 71%;
+	float: left;
+}
+} 
+#container .ticket h2 {
+	color: #666;
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: normal;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+}
+#container .ticket .type {
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+}
+#container .ticket .type mark {
+	color: #fff;
+	background-color: #458800;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+}
+#container .ticket .form {
+	font-size: 20px;
+}
+#container .ticket .form p{
+	line-height:3; 
+	margin: 0;
+	;}
+#container .ticket .form input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color:#fff;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #666;
+	margin: 0 0 0 16px;
+}
+#container .ticket .left {
+	display: inline-block;
+	width: 43%;
+}
+#container .ticket .right {
+	display: inline-block;
+	width: 43%;
+	
+}
+#container .ticket .button {
+	display: inline-block;
+	width: 8%;
+}
+#container .ticket .submit {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	line-height:90px;
+	background-color: #f60;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border:none;
+	cursor: pointer;
+	position: relative;
+	top: -28px;
+}
+#container .ticket .new {
+	margin: 20px 0 0 0 ;
+	font-size: 20px;
+}
+#container .ticket .new ul {
+	margin: 20px 0 0 0;
+}
+#container .ticket .new li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+#container .ticket .new li:first-child {
+	padding-left: 0;
+}
+#container .ticket .new li:nth-child(2) {
+	background-color: #458B00;
+	border-radius: 4px;
+	color: #fff;
+	}
+#container .ticket table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	margin: 20px 0 0 0;
+}
+#container .ticket table th {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+	font-weight: normal;
+}
+#container .ticket table tr {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+#container .ticket table tr:nth-child(2n) {
+	background-color: #fafafa;
+}
+#container .ticket table tr:hover {
+	background-color: #eee;
+}
+#container .ticket table .price {
+	color: #f60;
+}
+#container .ticket table .reserve {
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 4px;
+	background-color: #f60;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+#container .ticket table .more2 {
+	font-size: 18px;
+	text-align: center;
+	color: #666;
+	cursor: pointer;
+	margin: 0 auto;
+	display: block;
+}
+#container .scenery figure {
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	width: 435px;
+	margin: 15px 5px 15px 0;
+	text-align: left;
+}
+#footer {
+     	clear: both;
+		background-color: #222;
+		position: relative;top: 20px;
+}	
+#footer .top{ 
+				max-width: 1263px;
+				margin: 0 auto;
+				text-align: center; }		
+#footer .bottom{
+				text-align: center;
+				line-height: 80px;
+				color: #777;
+				border-top:1px solid #444;
+				background-color: #000;}
+#footer .block {display: inline-block;
+				width:33.33%; 
+				float: left;
+				color: #ccc;
+				text-align: left;
+				vertical-align: top;
+				}
+#footer h2 {font-weight: normal;
+			font-size: 24px;
+			padding: 10px 0 0 20px;}
+#footer hr {
+			width: 90%;
+			border: 1px dashed #333;}
+#footer ul {color: #666;
+			font-size: 18px;
+			text-indent: 20px;
+			line-height: 2;}
+#footer .version {margin: 0 auto;
+			text-align: center;
+			font-size: 18px;
+			}
+@media (min-width: 1200px) {
+#footer .sm-visible {display: none;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#adver .center {width:50%;
+	margin:-10px 0 0 -25%;
+	}
+	#tour h2 {
+	font-size: 40px;
+}
+	#footer .sm-visible {display: none;}
+	.headline h2 {font-size: 38px;}
+	.headline h3 {
+	font-size: 20px;
+}
+
+ #container .about {
+	width: 100%;
+	padding: 0 20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#adver .center {width:60%;
+	margin:-10px 0 0 -30%;
+	}
+	#tour h2 {
+	font-size: 35px;
+	}
+	.headline h2 {
+	font-size: 30px;
+	}
+	.headline h3 {
+	font-size: 16px;
+	}
+	.asidebar {
+	display: none;
+	}
+	#container .ticket {width: 100%;padding: 0 0 0 20px;}
+#container .about {
+	width: 100%;
+	padding: 0 20px;
+	}
+#container .about h2 {
+	font-size: 28px;
+	}
+#container .about p {
+	font-size: 18px;
+	}
+#container .about address {
+	font-size: 18px;
+}
+#container .scenery {
+	width: 100%
+}
+#container .ticket .form input {
+width: 98%;
+height: 35px;
+margin: 0;
+}
+#container .ticket .left {
+width: 98%;
+display: block;
+}
+#container .ticket .right {
+width: 98%;
+display: block;
+}
+#container .ticket .button {
+width: 98%;
+display: block;
+}
+#container .ticket .form p {
+line-height: 2;
+}
+#container .ticket .submit {
+display: block;
+width: 30%;
+height: auto;
+line-height: 2;
+position: relative;
+top: 10px;
+margin: 0 auto;
+}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	#header .logo{display: none;}
+	#header .link {width: 100%;line-height: 45px;}
+	#header,#header .center,#header .link{
+		height: 45px;
+	}
+	#adver{padding: 45px 0 0 0;}
+	#adver .search {
+	height: 45px;
+	font-size: 18px;
+	}
+	#adver .button {
+	height: 45px;
+	font-size: 18px;
+}
+	#adver .center {
+	height: 53px;
+}
+	#tour h2 {
+	font-size: 30px;
+}
+	#tour figure {
+	width: 49.2%;
+	}
+	#footer .sm-visible{display: none;}
+	#container .ticket {width: 100%;padding: 0 0 0 20px;}
+	#footer .bottom {
+	height: 40px;
+	line-height: 40px;
+	}
+		.headline {
+	padding: 45px 0 0 0;
+	}
+	.headline h2 {
+	font-size: 26px;
+	}
+	.headline h3 {
+	font-size: 14px;
+	}
+#container	.about {
+	width: 100%;
+	padding: 0 20px;
+	}
+#container	.about h2 {
+	font-size: 25px;
+	}
+#container	.about p {
+	font-size: 15px;
+	}
+#container	.about address {
+	font-size: 15px;
+	}
+	.asidebar {
+	display: none;
+	}
+	#container .scenery figure {
+		width: 48.8%;
+	}
+#container .scenery {
+	width: 100%
+}
+.ticket .form input {
+width: 98%;
+height: 35px;
+margin: 0;
+}
+#container .ticket .left {
+width: 98%;
+display: block;
+}
+#container .ticket .right {
+width: 98%;
+display: block;
+}
+#container .ticket .button {
+width: 98%;
+display: block;
+}
+#container .ticket .form p {
+line-height: 2;
+}
+#container .ticket .submit {
+display: block;
+width: 30%;
+height: auto;
+line-height: 2;
+position: relative;
+top: 10px;
+margin: 0 auto;
+}
+#container .ticket .type, #container .ticket .form, #container .ticket .new,#container .ticket .form
+input,#container .ticket .submit,#container .ticket .reserve {
+font-size: 16px;
+}
+}
+@media (max-width: 479px) {
+	#header .logo,.xs-hidden,.asidebar{display: none;}
+	#header .link {width: 100%;line-height: 45px;}
+	#header,#header .center,#header .link{
+		height: 45px;
+	}
+	#container .ticket {width: 100%;padding: 0 0 0 20px;}
+	#adver{padding: 45px 0 0 0;}
+	#header .link li {width: 25%;}
+	#adver .center {
+	width: 70%;
+	margin: -10px 0 0 -35%;
+}
+	#adver .search {
+	height: 40px;
+	font-size: 16px;
+	}
+	#adver .button {
+	height: 40px;
+	font-size: 16px;
+	}
+	#adver .center {
+	height: 48px;
+	}
+	#tour h2 {
+	font-size: 26px;
+}
+	#tour figure {
+	width: 99%;
+	}
+	#footer .top{display: none;}
+	#footer .bottom {
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	}
+	.headline {
+	padding: 45px 0 0 0;
+	}
+	.headline h2 {
+	font-size: 20px;
+	}
+	.headline h3 {
+	font-size: 12px;
+	}
+	#container .about {
+	width: 100%;
+	padding: 0 20px;
+	}
+	#container .about h2 {
+	font-size: 22px;
+	}
+	#container .about p {
+	font-size: 14px;
+	}
+	#container .about address {
+	font-size: 14px;
+	}
+	#container .scenery {
+	width: 100%
+}
+.scenery figure {
+width: 99%;
+}
+#container .ticket .form input {
+width: 98%;
+height: 35px;
+margin: 0;
+}
+#container .ticket .left {
+width: 98%;
+display: block;
+}
+#container .ticket .right {
+width: 98%;
+display: block;
+}
+#container .ticket .button {
+width: 98%;
+display: block;
+}
+#container .ticket .form p {
+line-height: 2;
+}
+#container .ticket .submit {
+display: block;
+width: 30%;
+height: auto;
+line-height: 2;
+position: relative;
+top: 10px;
+margin: 0 auto;
+}
+#container .ticket .reserve {
+display: inline-block;
+width: auto;
+height: auto;
+padding: 8px;
+line-height: 1;
+}
+#container .ticket .type, #container .ticket .form, #container .ticket .new, #container .ticket .form
+input, #container .ticket .submit, #container .ticket .reserve {
+font-size: 14px;
+}
+}
+
