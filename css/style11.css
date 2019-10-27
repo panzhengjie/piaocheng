@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body{
+	margin: 100px;
+	width: 960px;
+	height: 700px;
+	position: relative;
+}
+header{
+	height: 100px;
+	background-color: olive;
+	
+}
+aside{
+	width: 200px;
+	height: 500px;
+	background-color: red;
+	border: 1px solid green;
+	padding: 5px;
+	box-sizing: border-box;
+	/*resize: both;
+overflow:auto;*/
+	
+	
+
+}
+section{
+	width: 760px;
+	height: 500px;
+	background-color: maroon;
+	position: absolute;
+	top:100px;
+	left: 200px;
+
+
+}
+footer{
+	height: 100px;
+	background-color: orange;
+}

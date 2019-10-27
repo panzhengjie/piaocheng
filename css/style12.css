@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+div {
+	columns: 200px 4;
+	-webkit-column-gap: 20px;
+	column-rule: 2px dashed green;
+	
+	-moz-column-gap: 20px;
+	column-rule: 2px dashed green;
+	
+	-o-column-gap: 20px;
+	column-rule: 2px dashed green;
+	
+	column-gap: 20px;
+	column-rule: 2px dashed green;
+
+}
+h2 {-webkit-column-span:all;
+	-o-column-span:all;
+text-align:center;}

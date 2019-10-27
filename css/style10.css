@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body{margin: 0 auto;
+	width: auto;
+	height:700px;}
+header{
+		height: 100px;
+		background-color: olive;}
+aside{width: 20%;
+		height: 500px;
+		background-color: purple;
+		float: left;}
+section{width: 80%;
+		height: 500px;
+		background-color:maroon;
+		float: right; }
+footer {width: auto;
+	height: 100px;
+		background-color:gray;
+		clear: both;
+		 }

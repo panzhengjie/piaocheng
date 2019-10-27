@@ -1,0 +1,17 @@
+/* CSS Document */
+@charset "utf-8";
+
+
+div{ text-align:center;
+background-color:#999999;
+ width: 400px;
+height: 400px;
+-webkit-border-image: url(border.png) 27/27px round;
+	
+
+}/*background-image:linear-gradient(50deg,orange,green)
+  repeating-radial-gradient(circle 50px at top,orange,green)*/
+ /* border-image-source: url(000.png);
+  border-image-width:81px}*/
+div span { background-color:#00FF00;
+vertical-align: -50px;}
